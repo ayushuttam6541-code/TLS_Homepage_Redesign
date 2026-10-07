@@ -1,0 +1,18 @@
+export const sports = [
+  { name: "Archery" },
+  { name: "Cycling" },
+  { name: "Hockey" },
+  { name: "Swimming" },
+  { name: "Taekwondo" },
+  { name: "Football" },
+  { name: "Shooting Range" },
+  { name: "Horse Riding" },
+  { name: "Billiards" },
+  { name: "Squash" },
+  { name: "Volleyball" },
+  { name: "Basketball" },
+  { name: "Cricket" },
+  { name: "Lawn Tennis" },
+  { name: "Badminton" },
+  { name: "Table Tennis" },
+];
