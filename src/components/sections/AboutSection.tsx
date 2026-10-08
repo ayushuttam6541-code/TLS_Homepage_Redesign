@@ -3,6 +3,7 @@
 import { Reveal } from "@/components/animation/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
+import Image from "next/image";
 
 export function AboutSection() {
   return (
@@ -29,8 +30,13 @@ export function AboutSection() {
           </Reveal>
 
           <Reveal delay={0.2}>
-            <div className="relative h-[400px] rounded-2xl bg-slate-200 flex items-center justify-center">
-              <p className="text-slate-500">About Image Placeholder</p>
+            <div className="relative h-[400px] rounded-2xl overflow-hidden">
+              <Image
+                src="/AtTIS.59351600.png"
+                alt="About Tulas International School"
+                fill
+                className="object-cover"
+              />
             </div>
           </Reveal>
         </div>

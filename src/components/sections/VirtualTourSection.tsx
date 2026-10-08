@@ -5,6 +5,7 @@ import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { contact } from "@/data/contact";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export function VirtualTourSection() {
   return (
@@ -35,8 +36,13 @@ export function VirtualTourSection() {
               </Button>
             </div>
 
-            <div className="relative h-[400px] rounded-2xl bg-slate-800 flex items-center justify-center">
-              <p className="text-slate-500">Virtual Tour Preview Placeholder</p>
+            <div className="relative h-[400px] rounded-2xl overflow-hidden">
+              <Image
+                src="/BestResidential.5173db8d.jpg"
+                alt="Tulas International School Virtual Tour"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </Reveal>

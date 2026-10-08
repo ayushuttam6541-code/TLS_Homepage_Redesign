@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { contact } from "@/data/contact";
 import { ArrowDown } from "lucide-react";
@@ -69,8 +70,14 @@ export function HeroSection() {
             className="relative h-[400px] lg:h-[500px]"
           >
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 opacity-20" />
-            <div className="relative h-full w-full rounded-2xl bg-slate-200 flex items-center justify-center">
-              <p className="text-slate-500">Campus Image Placeholder</p>
+            <div className="relative h-full w-full rounded-2xl overflow-hidden">
+              <Image
+                src="/TopBoarding.e5405c1a.jpg"
+                alt="Tulas International School Campus"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </motion.div>
         </div>

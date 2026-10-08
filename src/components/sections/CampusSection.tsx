@@ -3,6 +3,7 @@
 import { Reveal } from "@/components/animation/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
+import Image from "next/image";
 
 export function CampusSection() {
   return (
@@ -10,8 +11,13 @@ export function CampusSection() {
       <Container>
         <div className="grid gap-12 lg:grid-cols-2">
           <Reveal>
-            <div className="relative h-[500px] rounded-2xl bg-slate-200 flex items-center justify-center">
-              <p className="text-slate-500">Campus Image Placeholder</p>
+            <div className="relative h-[500px] rounded-2xl overflow-hidden">
+              <Image
+                src="/tis-gurukul.18b098ef.png"
+                alt="Tulas International School Campus"
+                fill
+                className="object-cover"
+              />
             </div>
           </Reveal>
 

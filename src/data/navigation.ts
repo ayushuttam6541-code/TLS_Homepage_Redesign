@@ -1,9 +1,8 @@
 export const navigation = [
-  { label: "About TIS", href: "https://tis.edu.in/about-tis/" },
-  { label: "Academics", href: "https://tis.edu.in/academics/" },
-  { label: "Boarding Life", href: "https://tis.edu.in/boarding-life/" },
-  { label: "Beyond Academics", href: "https://tis.edu.in/beyond-academics/" },
-  { label: "Events", href: "https://tis.edu.in/events/" },
+  { label: "About TIS", href: "https://tis.edu.in/" },
+  { label: "Academics", href: "https://tis.edu.in/" },
+  { label: "Boarding Life", href: "https://tis.edu.in/" },
+  { label: "Beyond Academics", href: "https://tis.edu.in/" },
   { label: "Admission", href: "https://admission.tis.edu.in" },
 ];
 
